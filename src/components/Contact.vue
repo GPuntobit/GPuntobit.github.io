@@ -10,9 +10,9 @@
         Sono sempre aperto a nuove conversazioni.
       </p>
       <div class="contact-links">
-        <a href="mailto:gabriele@example.com" class="contact-link">Email</a>
-        <a href="#" class="contact-link">GitHub</a>
-        <a href="#" class="contact-link">LinkedIn</a>
+        <a href="s9457558@outlook.it" class="contact-link">Email</a>
+        <a href="https://github.com/GPuntobit" class="contact-link">GitHub</a>
+        <a href="https://it.linkedin.com/in/gabriel-schipor" class="contact-link">LinkedIn</a>
       </div>
     </div>
   </section>

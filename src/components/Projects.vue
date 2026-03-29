@@ -25,7 +25,7 @@ const projects = [
   {
     title: 'Staking Calculator',
     desc: 'Notebook interattivo per calcoli di compound interest su criptovalute con analisi per scenario.',
-    tags: ['Python', 'Plotly', 'Jupyter', 'Finanza'],
+    tags: ['Jupyter', 'Finanza'],
   },
   {
     title: 'Token ERC20',
