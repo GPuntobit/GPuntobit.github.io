@@ -1,0 +1,48 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  --bg:#0a0a09;
+  --bg2:#111110;
+  --bg3:#181816;
+  --border:#2a2a27;
+  --border2:#3a3a36;
+  --gold:#c9a96e;
+  --gold2:#e8c99a;
+  --text:#e8e6df;
+  --muted:#7a7870;
+  --muted2:#5a5854;
+}
+
+html{scroll-behavior:smooth}
+
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:'Cormorant Garamond',serif;
+  font-size:18px;
+  line-height:1.7;
+  min-height:100vh;
+}
+
+.divider{width:100%;height:1px;background:var(--border);margin:0}
+
+.section-label{
+  font-family:'DM Mono',monospace;
+  font-size:.75rem;font-weight:300;
+  color:var(--gold);letter-spacing:.2em;text-transform:uppercase;
+  display:flex;align-items:center;gap:1rem;margin-bottom:3rem;
+}
+.section-label::before{
+  content:'';display:block;
+  width:30px;height:1px;background:var(--gold);opacity:.5;
+}
+
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(24px)}
+  to{opacity:1;transform:translateY(0)}
+}
+.fade-up{animation:fadeUp .8s cubic-bezier(.4,0,.2,1) both}
+.delay-1{animation-delay:.15s}
+.delay-2{animation-delay:.3s}
+.delay-3{animation-delay:.45s}
+.delay-4{animation-delay:.6s}
